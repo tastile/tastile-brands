@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" role="img" aria-labelledby="title desc">
+  <title id="title">Tastile app icon</title>
+  <desc id="desc">A rounded-square app icon using black and blue on white background.</desc>
+  <rect x="64" y="64" width="896" height="896" rx="208" ry="208" fill="#FFFFFF"/>
+  <g transform="translate(512.75 512.5) rotate(-45) scale(0.74) translate(-272 -272)">
+    <path d="M48 0L304 0A48 48 0 0 1 352 48L352 304A48 48 0 0 1 304 352L48 352A48 48 0 0 1 0 304L0 48A48 48 0 0 1 48 0Z" fill="#111111"/>
+    <path d="M432 192L496 192A48 48 0 0 1 544 240L544 496A48 48 0 0 1 496 544L240 544A48 48 0 0 1 192 496L192 432A48 48 0 0 1 240 384L304 384A80 80 0 0 0 384 304L384 240A48 48 0 0 1 432 192Z" fill="#2563EB"/>
+  </g>
+</svg>

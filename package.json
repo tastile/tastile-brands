@@ -1,0 +1,14 @@
+{
+  "name": "tastile-icons",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Tastile brand icon and logo assets",
+  "scripts": {
+    "generate:raster": "node scripts/generate-raster.mjs",
+    "apply:a01": "node scripts/apply-a01-master.mjs"
+  },
+  "dependencies": {
+    "png-to-ico": "^2.1.8",
+    "sharp": "^0.34.3"
+  }
+}
