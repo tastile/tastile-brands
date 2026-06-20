@@ -10,8 +10,8 @@
 ## Raster generation
 
 ```bash
-npm install
-npm run generate:raster
+bun install
+bun run generate:raster
 ```
 
 Generated files are written to `raster/icons/` and `raster/logos/`

@@ -2,6 +2,7 @@
   "name": "tastile-icons",
   "version": "1.0.0",
   "private": true,
+  "packageManager": "bun@1.3.10",
   "description": "Tastile brand icon and logo assets",
   "scripts": {
     "generate:raster": "node scripts/generate-raster.mjs",
