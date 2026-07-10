@@ -6,6 +6,7 @@
   "description": "Tastile brand icon and logo assets",
   "scripts": {
     "generate:raster": "node scripts/generate-raster.mjs",
+    "verify": "node scripts/verify-raster.mjs",
     "apply:a01": "node scripts/apply-a01-master.mjs"
   },
   "dependencies": {
