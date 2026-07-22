@@ -1,0 +1,24 @@
+NOTICE — Tastile Brand Assets
+
+This repository is published for reference only. It is NOT released under any
+open-source license. See the LICENSE file in this directory for the full
+"All Rights Reserved" notice.
+
+For convenience, here is a plain-language summary:
+
+* You may read, browse, and study the assets for personal, non-commercial
+  evaluation.
+* You may NOT copy, fork, redistribute, or use any asset in this repository in
+  your own product, project, brand, or marketing material without prior written
+  permission from the project maintainers. Open a GitHub Issue on this
+  repository, or reach out via X DM to `@361do_sleep`.
+* The open-source Tastile client repositories (`tastile-web`,
+  `tastile-android`, `tastile-desktop`) use brand assets by separate,
+  written permission from Tastile. That permission is specific to those
+  repositories at their canonical upstream and does not transfer to forks.
+
+Brands are protected by trademark and unfair-competition law in most
+jurisdictions regardless of copyright. The "All Rights Reserved" label is the
+floor, not the ceiling.
+
+For the Japanese-language summary, see NOTICE.ja.md.
