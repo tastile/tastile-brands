@@ -1,1 +1,5 @@
 node_modules/
+
+# Claude Code session state — only runtime logs land here (no project-shared
+# config in this repo). Keep them out of the remote.
+.claude/
