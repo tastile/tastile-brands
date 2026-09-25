@@ -11,8 +11,9 @@
 
 project-init 由来の Agent Skills は project-local に管理する。
 
-- 初回導入 / 全体 reconcile: `bunx skills add rebuildup/project-init --skill '*' --agent claude-code opencode codex -y`
-- fresh clone: `bunx skills install`
-- 継続更新: `bunx skills update -p -y`
-- `skills-lock.json` は CLI 生成物として commit し、手で source/hash を作らない
+- standard bootstrap: `mise run skills-bootstrap`（内部で `bunx skills add rebuildup/project-init --skill '*' --agent claude-code --agent codex -y`）
+- 継続更新: `mise run skills-update` / `bunx skills update -p -y`
+- canonical install layout: `.agents/skills/` + `.claude/skills/`
+- `skills-lock.json` は project-local source / skill path / content hash metadata として commit する
+- current Skills CLI の `skills install` は universal pathのみを復元するため、Claude Codeを含むfresh bootstrapの唯一の入口にしない
 - upstream-managed Skill は直接編集せず、project 固有差分は別 Skill / adapter / ADR / docs に置く
